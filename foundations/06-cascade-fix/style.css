@@ -2,13 +2,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*PARAGRAPH*/
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,19 +19,25 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+
+
+/* BUTTONS DONE. Easier to just use the two ID like #confirm-button, #cancel-button*/
+button.confirm {
   background: green;
   color: white;
   font-weight: bold;
 } 
 
-.button {
+.button, .cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
+  
 }
 
-.child {
+/* DIVS*/
+
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
